@@ -1,0 +1,63 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background: #0078d7;
+  color: white;
+  padding: 20px 0;
+}
+
+#add-photo {
+  margin: 20px;
+}
+
+#add-photo input[type="file"],
+#add-photo input[type="text"] {
+  padding: 10px;
+  margin: 5px;
+  width: 220px;
+}
+
+#add-photo button {
+  padding: 10px 20px;
+  background: #0078d7;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#add-photo button:hover {
+  background: #005fa3;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.photo-card {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  width: 220px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+.photo-card img {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  border-radius: 8px 8px 0 0;
+}
+
+.caption {
+  padding: 10px;
+}
